@@ -1,0 +1,15 @@
+Data from CYCLE 24 TOP SOLAR FLARE LIST (Compiled by SolarHam.com)
+see complete data in top.txt
+
+CLASS   DATE           YEAR  SUNSPOT  PEAK TIME
+-----   ------------   ----  ------   ---------
+
+X1.0 -  March 29       2014  (2017) @ 17:48 UTC
+
+
+Data from SolarMonitor.org
+see complete data in noaa_events_raw_20140329.txt
+
+#Event    Begin    Max       End  Obs  Q  Type  Loc/Frq   Particulars       Reg#
+#-------------------------------------------------------------------------------
+ 8690       1735   1748      1754  G15  5   XRA  1-8A      X1.0    4.2E-02   2017

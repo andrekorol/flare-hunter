@@ -1,0 +1,7 @@
+Data from SolarMonitor.org
+see complete data in noaa_events_raw_20140824.txt
+
+#Event    Begin    Max       End  Obs  Q  Type  Loc/Frq   Particulars       Reg#
+#-------------------------------------------------------------------------------
+
+ 380       0453   0502      0511  G15  5   XRA  1-8A      C5.5    4.0E-03   2149
