@@ -25,4 +25,4 @@ for root, dirs, files in os.walk(root_dir):
                     print(filename)
                     fitsread.ECallistoFitsFile.plot_fits_files_list(fits_list,
                                                                     title,
-                                                                       filename)
+                                                                    filename)
