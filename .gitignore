@@ -105,3 +105,6 @@ venv.bak/
 
 # PyCharm
 .idea/
+
+# FITS files
+*.fit.gz
