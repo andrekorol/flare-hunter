@@ -1,0 +1,5 @@
+First flare peak data:
+{"freq_diff": 1.4658671853294436, "density_diff": 6990779.149172962, "time_diff": 3.383999999999787, "height_diff": 1067.262192239688, "df_over_dt": 0.43317588218957914, "velocity": 315.4}
+
+Second flare peak data:
+{"freq_diff": 6.378081689357714, "density_diff": 27154981.576365113, "time_diff": 14.723999999998938, "height_diff": 5202.187092925531, "df_over_dt": 0.4331758821894984, "velocity": 353.3}
