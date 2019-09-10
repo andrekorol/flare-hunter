@@ -1,0 +1,15 @@
+:Product: Summary of Space Weather Observations dayobs.txt
+:Issued: 2011 Feb 17 0030 UTC
+# Prepared by the US Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Product description and SWPC contact on the Web
+# http://www.swpc.noaa.gov/wwire.html
+#
+#             Summary of Space Weather Observations
+#
+:Solar_Region_Summary: 2011 Feb 16
+# Region   Location         Sunspot Characteristics
+#           Helio                      Spot  Spot  Mag.
+# Num   Lat.,CMD  Long.  Area  Extent  class count class
+ 1157    N19W70     66     10     8     BXO    2      B
+ 1158    S21W39     33    620    13     EKC   19    BGD
+ 1161    N13E25    330    120     9     DHI    9     BG

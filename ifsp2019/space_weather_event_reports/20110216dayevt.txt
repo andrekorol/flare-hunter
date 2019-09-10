@@ -1,0 +1,24 @@
+:Product: Space Weather Event Reports dayevt.txt
+:Issued: 2011 Feb 17 0245 UTC
+# Prepared by the US Dept. of Commerce, NOAA, Space Weather Prediction Center
+# Product description and SWPC contact on the Web
+# http://www.swpc.noaa.gov/wwire.html
+#
+#             Space Weather Event Reports
+#
+:Energetic_Solar_Events: 2011 Feb 16
+#Begin Max  End   Rgn   Loc  Xray  Op 245MHz 10cm   Sweep
+ 0735 0744 0755  1161        M1.1                                   
+ 0806 0806 0806                       140                           
+ 0926 0948 1007  1158 S21W28       Sf 100                           
+ 1025 1032 1039  1158        C3.2                                   
+ 1055 1055 1055                       160                           
+ 1146 1150 1150                       500                           
+ 1158 1202 1205  1158        C1.0     480                           
+ 1419 1425 1429  1158 S20W32 M1.6  1f 9900   330    II              
+ 1527 1532 1537  1158 S20W33 C7.7  Sf 120              IV           
+ 1612 1612 1612                       110                           
+ 1801 1801 1801                       100                           
+ 1950 1950 1950                       100                           
+ 2004 2004 2004                       120                           
+ 2050 2051 2054                       240                           

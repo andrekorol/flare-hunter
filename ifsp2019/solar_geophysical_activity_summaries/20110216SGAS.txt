@@ -1,0 +1,48 @@
+:Product: 0216SGAS.txt
+:Issued: 2011 Feb 16 0245 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Solar and Geophysical Activity Summary
+SGAS Number 047 Issued at 0245Z on 16 Feb 2011
+This report is compiled from data received at SWO on 15 Feb
+A.  Energetic Events
+Begin  Max  End  Rgn   Loc   Xray  Op 245MHz 10cm   Sweep
+ 0001 0002 0003                       9300                          
+ 0031 0038 0048              C2.7     1500                          
+ 0144 0156 0206  1158        X2.2     45000  1300   II/IV           
+ 0427 0432 0437              C4.8     19000                         
+ 0630      0732                                        IV           
+ 0758 0801 0805  1158 S20W11       Sf 8500                          
+ 0824 0824 0825                       890                           
+ 0858 0903 0905  1158 S21W11       Sf 7500                          
+ 0921 0921 0921                       370                           
+ 0921 0921 0921                       320                           
+ 1021 1021 1022                       120                           
+ 1226 1226 1227                       680                           
+ 1435 1435 1435                       130                           
+ 1527 1527 1527                       1300                          
+ 1543 1543 1543                       340                           
+ 1605 1605 1605                       140                           
+ 1608 1608 1608                       120                           
+ 1627 1627 1627                       100                           
+ 1639 1639 1639                       120                           
+ 1758 1801 1802                       500                           
+ 1930 2033 2053  1158 S20W21 C6.6  1f                               
+B.  Proton Events:  GOES-13 indicated an enhancement of the greater
+than 10 MeV protons starting at 15/0710Z and peaking around 2.6 PFU
+at geosynchronous orbit.
+C.  Geomagnetic Activity Summary:  The geomagnetic was mostly quiet
+with a few periods at active levels at high latitudes.
+D.  Stratwarm:  Not Available
+E.  Daily Indices: (real-time preliminary/estimated values)
+10 cm 113  SSN 100  Afr/Ap 004/005   X-ray Background B5.2
+Daily Proton Fluence (flux accumulation over 24 hrs)
+GT 1 MeV 7.2e+05   GT 10 MeV 8.5e+04 p/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+Daily Electron Fluence
+GT 2 MeV 1.30e+06 e/(cm2-ster-day)
+(GOES-13 satellite synchronous orbit W75 degrees)
+3 Hour K-indices:
+Boulder 1 1 1 2 1 2 2 2 Planetary 1 1 1 1 2 1 1 2 
+F.  Comments:  None

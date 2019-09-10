@@ -1,0 +1,58 @@
+:Product: 0216RSGA.txt
+:Issued: 2011 Feb 16 2205 UTC
+# Prepared jointly by the U.S. Dept. of Commerce, NOAA,
+# Space Weather Prediction Center and the U.S. Air Force.
+#
+Joint USAF/NOAA Report of Solar and Geophysical Activity
+SDF Number 047 Issued at 2200Z on 16 Feb 2011
+IA.  Analysis of Solar Active Regions and Activity from  15/2100Z
+to 16/2100Z:  Solar activity has been moderate with occasional
+M-class and frequent C-class events throughout the period. Region
+1158 (S21W39) has produced two M-class flares; the largest an M1/1F
+at 16/1425Z with associated Type II radio sweep and a 330 sfu
+Tenflare. Growth in Region 1158 leveled off at 620 millionths but
+maintained its E-type configuration and beta-gamma-delta magnetic
+classification.  Region 1161 (N13E25) produced an M1 x-ray event at
+16/0139Z. LASCO imagery indicated an associated CME at 16/0248Z.
+Region 1161 has shown continual growth. The group currently has an
+area of 330 millionths and developed a beta-gamma magnetic
+classification.
+IB.  Solar Activity Forecast:  Solar activity is expected to be
+moderate with a chance for an isolated major flare for the next
+three days (17-19 February). Region 1158 is expected to produce more
+M-class flares and still has the potential for producing an M5 or
+greater x-ray event. There is a chance for isolated M-class activity
+from Region 1161.
+IIA.  Geophysical Activity Summary 15/2100Z to 16/2100Z:
+The geomagnetic field has been quiet. Solar wind velocities
+throughout the period gradually decreased to around 400km/s.
+IIB.  Geophysical Activity Forecast:  The geomagnetic field is
+expected to be predominately quiet on day one (February 17).  An
+increase to unsettled to active conditions, with a chance for minor
+storm periods is expected late on day one into day two (18
+February). The increased activity is forecast due to the expected
+arrival of the CME associated with the X2 flare that occurred on
+15/0156Z.  Day three (19 February) is expected to be quiet to active
+as the disturbance subsides.
+III.  Event Probabilities 17 Feb-19 Feb
+Class M    75/75/75
+Class X    25/25/25
+Proton     20/20/20
+PCAF       Green
+IV.  Penticton 10.7 cm Flux
+Observed           16 Feb 114
+Predicted   17 Feb-19 Feb  105/105/100
+90 Day Mean        16 Feb 085
+V.  Geomagnetic A Indices
+Observed Afr/Ap 15 Feb  004/005
+Estimated Afr/Ap 16 Feb  004/005
+Predicted Afr/Ap 17 Feb-19 Feb  018/018-025/025-012/012
+VI.  Geomagnetic Activity Probabilities 17 Feb-19 Feb
+A.  Middle Latitudes
+Active                30/35/20
+Minor storm           15/20/05
+Major-severe storm    01/05/01
+B.  High Latitudes
+Active                35/40/25
+Minor storm           20/25/10
+Major-severe storm    01/05/01
