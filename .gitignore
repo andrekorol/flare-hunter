@@ -108,3 +108,7 @@ venv.bak/
 
 # FITS files
 *.fit.gz
+# R config files
+.Rproj.user
+.RData
+.Rhistory
