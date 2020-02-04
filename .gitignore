@@ -112,3 +112,6 @@ venv.bak/
 .Rproj.user
 .RData
 .Rhistory
+
+# VS Code
+.vscode/
