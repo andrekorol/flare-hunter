@@ -86,7 +86,9 @@ exports.downloadReportsArchives = function(
                 else {
                   console.log(info(`Downloading ${eventsArchive}...`));
                   fileStream.pipe(
-                    fs.createWriteStream(`${archivesDestDir}/${eventsArchive}`)
+                    fs.createWriteStream(
+                      path.join(archivesDestDir, eventsArchive)
+                    )
                   );
                   fileStream.once('close', () => {
                     console.log(success(`Downloaded ${eventsArchive}`));
@@ -140,7 +142,7 @@ function extractTxtFiles(archivesDir, destDir) {
         file => path.extname(file) === '.gz'
       );
       for (const tarball of gzippedTarballs) {
-        const tarballPath = `${archivesDir}/${tarball}`;
+        const tarballPath = path.join(archivesDir, tarball);
         fs.createReadStream(tarballPath)
           .pipe(tar.t())
           .on('entry', entry => {
