@@ -1,2 +1,2 @@
 # flare-hunter
-Scripts for analyzing data of solar flares.
+Scripts I wrote for the extraction and analysis of data from observations of multiple solar flares.
