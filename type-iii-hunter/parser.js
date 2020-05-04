@@ -55,11 +55,11 @@ function findTypeIIIEvents(reportPath) {
         event.Q = properties[counter];
         counter += 1;
 
-        // Type of report - see README for more information on this
+        // Type of report - see SWPC-README for more information on this
         event.Type = properties[counter];
         counter += 1;
 
-        // Location or frequency, see README
+        // Location or frequency, see SWPC-README
         event['Loc/Frq'] = properties[counter];
         counter += 1;
 
