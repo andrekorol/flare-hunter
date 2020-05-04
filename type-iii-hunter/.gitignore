@@ -114,3 +114,6 @@ events-archives/
 
 # Events directory
 events/
+
+# Destination of type III events JSON file
+typeIIIEvents.json
