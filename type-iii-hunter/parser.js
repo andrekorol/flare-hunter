@@ -3,7 +3,9 @@ const path = require('path');
 const readline = require('readline');
 const { success, info } = require('./log-style');
 
-function findTypeIIIEvents(reportPath) {
+function findEventsByType(reportPath, eventType) {
+  // Parse a SWPC report text file and return an array of objects
+  // of events of a given type
   return new Promise((resolve, reject) => {
     const events = [];
     const readStream = fs.createReadStream(reportPath);
@@ -14,8 +16,13 @@ function findTypeIIIEvents(reportPath) {
       input: readStream,
       crlfDelay: Infinity,
     });
+
+    // create a Regular Expression from the given eventType string
+    // in order to identify lines containing events of that type
+    const eventTypeRegExp = new RegExp(`.*${eventType}.*`);
+
     rl.on('line', line => {
-      if (/.*III.*/.test(line)) {
+      if (eventTypeRegExp.test(line)) {
         const event = {};
 
         // extract the event's date from the path of its report file
@@ -80,22 +87,23 @@ function findTypeIIIEvents(reportPath) {
   });
 }
 
-exports.parseReports = function(reportsDir, destJSONFile) {
+exports.parseReports = function(reportsDir, destJSONFile, eventType) {
   return new Promise((resolve, reject) => {
     console.log(
       info(
-        `Started extracting type III events from the report files on '${reportsDir}'`
+        `Started extracting type ${eventType} events from the report files` +
+          ` on '${reportsDir}'`
       )
     );
     fs.readdir(reportsDir, (err, files) => {
       if (err) reject(err);
       const findPromisses = files.map(filename => {
         const filePath = path.join(reportsDir, filename);
-        return findTypeIIIEvents(filePath);
+        return findEventsByType(filePath, 'III');
       });
       Promise.all(findPromisses)
         .then(reportEvents => {
-          console.log(success('Finished extracting type III events'));
+          console.log(success(`Finished extracting type ${eventType} events`));
           const eventsArray = [];
           for (const events of reportEvents) {
             if (events.length !== 0) {
@@ -105,7 +113,9 @@ exports.parseReports = function(reportsDir, destJSONFile) {
             }
           }
           console.log(
-            info(`Started writing type III events to '${destJSONFile}'`)
+            info(
+              `Started writing type ${eventType} events to '${destJSONFile}'`
+            )
           );
           fs.writeFile(
             destJSONFile,

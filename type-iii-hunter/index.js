@@ -15,10 +15,11 @@ const ftp = new Client();
 const archivesDir = 'events-archives';
 const reportsDir = 'events';
 const destJSONFile = 'typeIIIEvents.json';
+const eventType = 'III';
 
 downloadReportsArchives(ftp, config, archivesDir)
   .then(() => extractReports(archivesDir, reportsDir))
-  .then(() => parseReports(reportsDir, destJSONFile))
+  .then(() => parseReports(reportsDir, destJSONFile, eventType))
   .catch(reason => {
     throw reason;
   });
