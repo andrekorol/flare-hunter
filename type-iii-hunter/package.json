@@ -29,7 +29,7 @@
     "gunzip-maybe": "^1.4.2",
     "jsonfile": "^6.0.1",
     "mkdirp": "^1.0.4",
-    "tar": "^6.0.1",
+    "tar": "^6.1.2",
     "tar-fs": "^2.0.1",
     "tar-stream": "^2.1.2"
   }
